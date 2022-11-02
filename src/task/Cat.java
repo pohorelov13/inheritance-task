@@ -13,11 +13,9 @@ public class Cat extends Animal {
     public void run(int distance) {
         if (distance <= CAT_RUN_DISTANCE && distance >= 0) {
             super.run(distance);
-        }
-        else if (distance < 0){
+        } else if (distance < 0) {
             System.out.println("Are you kidding me?");
-        }
-        else {
+        } else {
             System.out.println("Cat will not run so much");
         }
     }

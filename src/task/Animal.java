@@ -10,16 +10,12 @@ public class Animal {
         amountAnimal++;
     }
 
-    public void run(int distance){
+    public void run(int distance) {
         System.out.println(this.name + " ran " + distance + " m.");
     }
 
-    public void swim(int distance){
+    public void swim(int distance) {
         System.out.println(this.name + " swam " + distance + " m.");
-    }
-
-    public String getName() {
-        return name;
     }
 
     public static int getAmountAnimal() {
