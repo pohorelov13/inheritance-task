@@ -2,18 +2,18 @@
 
 +class Animal {
 -name:String
--amountAnimal
+-amountAnimal:int
 
 +run()
 +swim()
 }
 
 +class Dog {
--amountDogs
+-amountDogs:int
 }
 
 +class Cat {
--amountCats
+-amountCats:int
 }
 
 Animal <|-- Dog
