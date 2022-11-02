@@ -1,3 +1,7 @@
+# UML
+
+![](Inheritance.png)
+
 1. Створив порожній проект в IntelliJ
 
 
